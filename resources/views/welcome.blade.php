@@ -7,7 +7,10 @@
         <title>Fullstack Blog</title>
 
     </head>
+    <script src="{{ asset('js/app.js') }}" defer> </script>
     <body>
-        <h1>this is the body</h1>
+        <div id="app">
+            <mainapp/>
+        </div>
     </body>
 </html>
